@@ -274,22 +274,6 @@ if __name__=='__main__':
     afiles=array([ list((p,x,os.path.getsize(p+os.sep+x))) for (p,d,f) in os.walk(dir0) for x in f ])
     #%%
     #%%
-#==============================================================================
-#     
-#     aflsGrSzs=arrayGroupBy(afiles,2,True,True,IgnoreSzLess)
-#     #%%
-#     tarr=aflsGrSzs[0]
-#     tarr
-#     #%%
-#     forig=os.sep.join(tarr[0,:2])
-#     forig    
-#     #%%
-#     for x in tarr[1:]:
-#         fsame=os.sep.join(x[:2])
-#         print fsame        
-#==============================================================================
-
-    #%%
     #%%
     #%%
     

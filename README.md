@@ -2,6 +2,7 @@
 
 search duped files and turn it to NTFS-links 
 
+**see READMEru.md or mainpage of wiki for russian**
 
 ### require ###
 operation system and file system that supports symlinks and hardlinks
