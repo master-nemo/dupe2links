@@ -4,7 +4,7 @@ search duped files and turn it to NTFS-links
 
 **see READMEru.md or mainpage of wiki for russian**
 
-### require ###
+### requires ###
 operation system and file system that supports symlinks and hardlinks
 (tested on NTFS on Windows 6.1) 
 
@@ -29,13 +29,13 @@ optional arguments:
   -i, --OnlyInfo        do not create links- just report
   -s, --noWaitEnter     do not wait Enter after finish
 ```
-#### how it work:
+#### how it works:
 found dupes and make them to hardlink (try use hardlink and symlink if hardlink fail) to one of copyes (random one).
 
 ## WARNING
- 1. this script is provided AS IS without warranty, although all reasonable efforts was made to work it properly, but all possible damages is on your responsiblity!
- 2. this script include file deletion operation - be carefully! (See item 1)
- 3. There may be errors with the non-ASCII-filenames. I tryed to avoid them but, damn it, there are always such strange symbols that all efforts mean nothing. And anybody who use such symbols in filenames really deserved all errors that come from them.
+ 1. this script is provided AS IS without warranty, although all reasonable efforts was made to work it properly, but all possible damages is your responsiblity!
+ 2. This script includes file deletion operation - be carefull! (See item 1)
+ 3. There may be errors with the non-ASCII-filenames. I tryed to avoid them but, damn it, there are always such strange symbols that all efforts mean nothing. And anybody who uses such symbols in filenames really deserves all errors that come from them.
 
 ### _____________ ###
 (c) master_Nemo 2017 All right reserved
